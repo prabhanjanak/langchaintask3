@@ -16,6 +16,7 @@ filelock==3.15.4
 frozenlist==1.4.1
 fsspec==2024.6.1
 gitdb==4.0.11
+google-api-python-client
 GitPython==3.1.43
 greenlet==3.0.3
 huggingface-hub==0.23.4
