@@ -65,7 +65,7 @@ if query and "retriever" in st.session_state:
     # Load the LLM
     repo_id = "meta-llama/Meta-Llama-3-8B-Instruct"
     llm = HuggingFaceEndpoint(
-        repo_id=repo_id, max_new_tokens=1024, temperature=1, huggingfacehub_api_token=st.secrets['api_key']
+        repo_id=repo_id, max_new_tokens=1024, temperature=1, huggingfacehub_api_token=st.secrets['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']
     )
     
     # Create the QA chain
